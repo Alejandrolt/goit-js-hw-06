@@ -1,7 +1,7 @@
 const form = document.querySelector(".login-form");
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault(); // no se recargue la pagina
+  event.preventDefault(); // no  recargue la pag
   const email = form.elements.email.value;
   const password = form.elements.password.value;
 
